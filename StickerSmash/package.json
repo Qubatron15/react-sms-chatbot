@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
+    "@maniac-tech/react-native-expo-read-sms": "^9.0.2-alpha",
     "@react-navigation/bottom-tabs": "^7.2.0",
     "@react-navigation/native": "^7.0.14",
     "expo": "~52.0.46",
@@ -49,6 +50,15 @@
     "jest-expo": "~52.0.6",
     "react-test-renderer": "18.3.1",
     "typescript": "^5.3.3"
+  },
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "enabled": true,
+        "exclude": ["@maniac-tech/react-native-expo-read-sms"],
+        "listUnknownPackages": true
+      }
+    }
   },
   "private": true
 }
